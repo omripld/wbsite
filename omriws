@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omri Peled - Musician</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff69b4;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .link-section {
+            margin-top: 20px;
+        }
+        .link-section a {
+            color: #ff69b4;
+            text-decoration: none;
+            font-size: 1.2em;
+            border: 2px solid #ff69b4;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .link-section a:hover {
+            background-color: #ff69b4;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Omri Peled</h1>
+        <p>Musician</p>
+    </header>
+    <main>
+        <div class="content">
+            <section class="about-me">
+                <h2>About Me</h2>
+                <p>Hello! I am Omri Peled, a passionate musician. Music is my life, and I love to create and share my sounds with the world. Feel free to explore my work and connect with me through my SoundCloud page.</p>
+            </section>
+            <section class="link-section">
+                <h2>Listen to My Music</h2>
+                <a href="https://soundcloud.com/your-soundcloud-page" target="_blank">Visit My SoundCloud</a>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
